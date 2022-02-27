@@ -1,0 +1,12 @@
+
+.Textarea{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    position: relative;
+}
+.Dropdown.Toggle{
+    height: 20px;
+    width: 20px;
+    display: flex;
+}

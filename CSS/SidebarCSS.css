@@ -1,0 +1,63 @@
+.Sidebar{
+    background-color: peachpuff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Menu{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+.nav-menu{
+    background-color: peachpuff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    /* left: -100%; */
+    transition: 8ms;
+}
+.nav-menu.active{
+    left: 0;
+    transition: 3ms;
+}
+.nav-menu-list{
+    display: inline-block;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 0px 5px 10px;
+    list-style: none;
+    height: 50px;
+}
+.nav-menu-list a{
+    text-decoration: wavy;
+    color: azure;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+.nav-menu-list a:hover{
+    background-color: plum;
+    color: rebeccapurple;
+    display: flex-start;
+
+}
+.Menu-items{
+    width: 100%;
+}
+.sidebar-toggle{
+    background-color: peachpuff;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
