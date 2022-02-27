@@ -21,4 +21,13 @@ export const Login=() =>{
                </Form>
     )
 }
-//export default (Login);
+// const mutation = gql`
+// mutation ($email: String!, $password: String!) {
+//   login(email: $email, password: $password) {
+//     token
+//     refreshToken
+//   }
+// }
+// `;
+
+// export default graphql(mutation)(Login);
